@@ -13,6 +13,7 @@ public class Main {
 		double promedio =(double) (num1 +num2+num3+num4+num5)/5;
 		
 		System.out.println("EL promedio es: "+promedio); //Decorar para darle formato bonito
+		System.out.println("El primer numero es: "+num1+", El segundo es: "+num2+", El tercero es: "+num3+", El cuarto es: "+num4+" y el quinto numero es: "+num5);
 	}
 
 }
