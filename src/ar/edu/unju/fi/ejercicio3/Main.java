@@ -6,7 +6,6 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub0	
-		long fact =1;
 		System.out.println("Ingrese numero entero :");
 		Scanner scanner = new Scanner(System.in);
 		
@@ -21,6 +20,7 @@ public class Main {
 		else {
 			System.out.println("El valor ingresado no es un numero entero");
 		}
+		scanner.close();
 		
 	}
 
